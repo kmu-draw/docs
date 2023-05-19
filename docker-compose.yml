@@ -1,0 +1,5 @@
+services:
+  draw_docs:
+    container_name: draw-docs
+    build: .
+    restart: unless-stopped

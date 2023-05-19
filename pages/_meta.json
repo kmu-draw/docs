@@ -8,6 +8,9 @@
   "editor": {
     "title": "DRAW Editor"
   },
+  "finder": {
+    "title": "DRAW Finder"
+  },
   "github_link": {
     "title": "DRAW GitHub",
     "href": "https://github.com/kmu-draw",

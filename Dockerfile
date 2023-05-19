@@ -19,6 +19,7 @@ RUN \
 COPY pages ./pages
 COPY public ./public
 COPY next.config.js .
+COPY theme.config.tsx .
 COPY tsconfig.json .
 
 # Environment variables must be present at build time

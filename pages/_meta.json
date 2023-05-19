@@ -1,12 +1,15 @@
 {
-  "index": "DRAW Project",
+  "index": "프로젝트 소개",
   "demo": {
     "title": "Demo",
     "href": "pdf-demo.jaewook.me",
     "type": "page"
   },
+  "editor": {
+    "title": "DRAW Editor"
+  },
   "github_link": {
-    "title": "DRAW",
+    "title": "DRAW GitHub",
     "href": "https://github.com/kmu-draw",
     "newWindow": true
   }

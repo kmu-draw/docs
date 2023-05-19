@@ -1,5 +1,10 @@
 {
   "index": "DRAW Project",
+  "demo": {
+    "title": "Demo",
+    "href": "pdf-demo.jaewook.me",
+    "type": "page"
+  },
   "github_link": {
     "title": "DRAW",
     "href": "https://github.com/kmu-draw",

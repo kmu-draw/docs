@@ -1,9 +1,27 @@
 {
-	"dependencies": {
-		"next": "^13.4.2",
-		"react": "^18.2.0",
-		"react-dom": "^18.2.0",
-		"nextra": "^2.5.2",
-		"nextra-theme-docs": "^2.5.2"
-	}
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "DRAW Documentation Website",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmu-draw/docs.git"
+  },
+  "scripts": {
+    "start:dev": "next dev -p 20232",
+    "build": "next build",
+    "start": "next start -p 20232"
+  },
+  "dependencies": {
+    "next": "^13.4.2",
+    "nextra": "^2.5.2",
+    "nextra-theme-docs": "^2.5.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.1",
+    "@types/react": "18.2.6",
+    "typescript": "^5.0.4"
+  }
 }

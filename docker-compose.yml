@@ -1,5 +1,20 @@
 services:
-  draw_docs:
+  draw-docs:
     container_name: draw-docs
-    build: .
-    restart: unless-stopped
+    build:
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - 3000:3000
+    networks:
+      default:
+        ipv4_address: 172.22.0.6
+
+  # Add more containers below (nginx, postgres, etc.)
+
+# Define a network, which allows containers to communicate
+# with each other, by using their container name as a hostname
+networks:
+  default:
+    name: nginx_network
+    external: true

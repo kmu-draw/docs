@@ -20,17 +20,41 @@ DRAW 프로젝트는 공사 도면 PDF 파일에서 도면 데이터 인식 및 
 ## 팀 소개
 
 import Image from "next/image";
+import { AiFillGithub, AiOutlineMail } from "react-icons/ai";
 
 export const Profile = ({ src, alt }) => {
   return (
     <div style={{ width: "fit-content", borderRadius: "50%", overflow: "hidden" }}>
-      <Image src={src} alt={alt} width={300} height={300} />
+      <Image src={src} alt={alt} width={150} height={150} />
     </div>
   );
 };
 
-| | <Profile src="/images/profile_jaewook.jpg" alt="Jaewook Ahn" /> | <Profile src="/images/profile_seungjin.jpg" alt="Seungjin Han" /> |
-|:-------:|:---------------------:|:-------------------:|
-| Name    | 안재욱                  | 한승진               |
-| Role    | Frontend              | Machine Learning    |
-| Contact | dev.jaewook@gmail.com | gkstmdwls1999@gmail.com |
+<div style={{ marginTop: "24px", display: "flex", flexWrap: "wrap", gap: "32px" }}>
+  <div style={{ width: "220px", display: "flex", flexDirection: "column", alignItems: "center" }}>
+    <Profile src="/images/profile_jaewook.jpg" alt="Jaewook Ahn" />
+    <p style={{ marginTop: "8px", fontSize: "28px" }}>안재욱</p>
+    <p>Frontend</p>
+    <div style={{ display: "flex", alignItems: "center" }}>
+      <AiFillGithub />
+      <a style={{ marginLeft: "4px" }} href="https://github.com/Jaewoook" target="_blank">Jaewoook</a>
+    </div>
+    <div style={{ display: "flex", alignItems: "center" }}>
+      <AiOutlineMail />
+      <span style={{ marginLeft: "4px" }}>dev.jaewook@gmail.com</span>
+    </div>
+  </div>
+  <div style={{ width: "220px", display: "flex", flexDirection: "column", alignItems: "center" }}>
+    <Profile src="/images/profile_seungjin.jpg" alt="Seungjin Han" />
+    <p style={{ marginTop: "8px", fontSize: "28px" }}>한승진</p>
+    <p>Machine Learning</p>
+    <div style={{ display: "flex", alignItems: "center" }}>
+      <AiFillGithub />
+      <a style={{ marginLeft: "4px" }} href="https://github.com/LEFT-BEE" target="_blank">LEFT-BEE</a>
+    </div>
+    <div style={{ display: "flex", alignItems: "center" }}>
+      <AiOutlineMail />
+      <span style={{ marginLeft: "4px" }}>gkstmdwls1999@gmail.com</span>
+    </div>
+  </div>
+</div>

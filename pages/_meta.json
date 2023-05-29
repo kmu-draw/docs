@@ -6,11 +6,13 @@
     "type": "page"
   },
   "editor": "DRAW Editor",
-  "finder": {
-    "title": "DRAW Finder"
+  "finder": "DRAW Finder",
+  "Links": {
+    "type": "separator",
+    "title": "More"
   },
   "github_link": {
-    "title": "DRAW GitHub",
+    "title": "DRAW GitHub ↗",
     "href": "https://github.com/kmu-draw",
     "newWindow": true
   }

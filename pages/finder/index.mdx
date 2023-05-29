@@ -69,3 +69,27 @@ python3 main.py
 
 ```
 
+## 구동 방법
+
+shopdrawing 내부에 main.sh 에서 직접 파라미터를 수정한다.   
+
+- ```temp_dir``` 은 도면 내부에 찾으려는 심볼 이미지의 디렉토리 경로를 의미한다.   
+
+
+- ```project_name```은 도면 정보 추출을 하려는 pdf 혹은 이미지 파일의 이름을 의미한다. 해당 파라미터는 실제 pdf혹은 이미지 경로와 이름이 같아야한다. 
+
+- ```temp_name```은 심볼이미지의 종류에 따라 저장될 디렉토리의 이름을 의미한다. 기본값은 "drawing_number"이다.
+
+
+```
+temp_dir=/home/gpuadmin/shopdwg/shopdrawing/template/template_special
+project_name=drawing
+temp_name=toilet
+
+
+echo "[Start find drawing info]"
+python ./main.py --template_dir=${temp_dir} \
+                 --project_name=${project_name} \
+                 --temp_name=${temp_name} \
+```
+

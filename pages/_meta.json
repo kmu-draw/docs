@@ -5,9 +5,7 @@
     "href": "pdf-demo.jaewook.me",
     "type": "page"
   },
-  "editor": {
-    "title": "DRAW Editor"
-  },
+  "editor": "DRAW Editor",
   "finder": {
     "title": "DRAW Finder"
   },

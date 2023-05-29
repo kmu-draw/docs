@@ -22,28 +22,6 @@ DRAW Editor가 지원하는 기능에 대한 리스트입니다.
 - [x] AI 처리한 문서 데이터 적용 기능
 - [x] 페이지 내 생성한 링크로 페이지 이동 가능
 
-## 사용법
-
-다음과 같은 형태로 `<Viewer />` 컴포넌트를 임포트하고, 여러분의 앱에 마운트하여 사용할 수 있습니다. 다른 어떤 Props도 필요하지 않습니다!
-
-```tsx filename="AwesomeApp.tsx" showLineNumbers
-import { Viewer } from "draw-editor";
-
-// some code here...
-
-const App = () => {
-  return (
-    <Wrapper>
-      <Viewer width="100%" height="100%" />
-    </Wrapper>
-  );
-};
-```
-
-## 실행 결과
-
-![실행 결과](/images/draw-editor-demo.png)
-
 ### 참고사항
 
 > DRAW Editor는 문서 이동을 위해 방향키(좌, 우)를 사용합니다.
@@ -83,17 +61,3 @@ DRAW Editor는 아래와 같은 컴포넌트 계층 구조를 가집니다. 컴�
 |--- Loading
 |- RecoilRoot
 ```
-
-## 컴포넌트 레퍼런스
-
-### `<Viewer />` 컴포넌트
-
-Viewer 컴포넌트의 Props는 [styled-system](https://styled-system.com/)을 사용합니다.
-
-| Category | Props | Reference |
-|----------|-------|-----------|
-| Size | `width`, `maxWidth`, `minWidth`, `height`, `maxHeight`, `minHeight` | https://styled-system.com/api/#layout |
-| Margin | `m`(`margin`), `mx`(`marginX`), `my`(`marginY`), `mt`(`marginTop`), `ml`(`marginLeft`), `mr`(`marginRight`), `mb`(`marginBottom`) | https://styled-system.com/table#space |
-| Padding | `p`(`padding`), `px`(`paddingX`), `py`(`paddingY`), `pt`(`paddingTop`), `pl`(`paddingLeft`), `pr`(`paddingRight`), `pb`(`paddingBottom`) | https://styled-system.com/table#space |
-| Background | `background`, `backgroundImage`, `backgroundPosition`, `backgroundRepeat`, `backgroundSize` | https://styled-system.com/api/#background |
-

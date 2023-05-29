@@ -41,8 +41,31 @@ python3 main.py
 - Pytorch
 - OpenCV
 - EasyOCR
-- GPU 사용가능 환경 
-
 
 ## 컴포넌트 구조
+
+```
+|- shopdrawing
+|--- data
+|-----|--- images
+|-----|--- pdf
+|--- files
+|-----|--- DataLoader.py
+|-----|--- feature_extract.py
+|-----|--- nms_plot.py
+|-----|--- utils.py
+|--- models
+|-----|--- EDSR_x4.pb
+|-----|--- FSRCNN_x4.pb
+|--- results
+|--- template
+|-----|-----|--- template_basic
+|-----|-----|--- template_special
+|-----|-----|--- thresh_template_basic.csv
+|-----|-----|--- thresh_template_special.csv
+|--- finder.py
+|--- main.py
+|--- main.sh
+
+```
 

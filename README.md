@@ -35,6 +35,11 @@ pnpm start:dev
   
 #### 5. Edit markdown using your own editor in the `pages` directory
 
+## Authors
+
+- Jaewook Ahn
+- Seungjin Han
+
 ## License
 
 This project is licensed under the [MIT License](./LICENSE).

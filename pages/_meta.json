@@ -1,15 +1,14 @@
 {
   "index": "프로젝트 소개",
-  "demo": {
-    "title": "Demo",
-    "href": "pdf-demo.jaewook.me",
-    "type": "page"
-  },
   "editor": "DRAW Editor",
   "finder": "DRAW Finder",
   "Links": {
     "type": "separator",
     "title": "More"
+  },
+  "demo": {
+    "title": "Demo ↗",
+    "href": "https://draw-demo.jaewook.me"
   },
   "github_link": {
     "title": "DRAW GitHub ↗",

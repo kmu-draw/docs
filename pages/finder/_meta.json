@@ -1,13 +1,6 @@
 
 {
-  "easyocr": "EasyOCR"
-}
-{
-  "qatm": "QATM"
-}
-{
-  "Others": "Others"
-}
-{
+  "easyocr": "EasyOCR",
+  "qatm": "QATM",
   "env": "사용 환경"
 }

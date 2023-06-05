@@ -9,6 +9,11 @@ const config: DocsThemeConfig = {
   footer: {
     text: "KMU DRAW Project Documentation",
   },
+  useNextSeoProps() {
+    return {
+      titleTemplate: "%s - DRAW"
+    }
+  },
 };
 
 export default config;

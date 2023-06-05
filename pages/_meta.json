@@ -8,7 +8,8 @@
   },
   "demo": {
     "title": "Demo ↗",
-    "href": "https://draw-demo.jaewook.me"
+    "href": "https://draw-demo.jaewook.me",
+    "newWindow": true
   },
   "github_link": {
     "title": "DRAW GitHub ↗",

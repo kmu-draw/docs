@@ -1,6 +1,8 @@
 # 레퍼런스
 
-## `<DRAWEditor />` 컴포넌트
+## Components
+
+### `<DRAWEditor />`
 
 DRAWEditor 컴포넌트의 Props는 [styled-system](https://styled-system.com/)을 사용합니다.
 
@@ -10,3 +12,39 @@ DRAWEditor 컴포넌트의 Props는 [styled-system](https://styled-system.com/)�
 | Margin | `m`(`margin`), `mx`(`marginX`), `my`(`marginY`), `mt`(`marginTop`), `ml`(`marginLeft`), `mr`(`marginRight`), `mb`(`marginBottom`) | https://styled-system.com/table#space |
 | Padding | `p`(`padding`), `px`(`paddingX`), `py`(`paddingY`), `pt`(`paddingTop`), `pl`(`paddingLeft`), `pr`(`paddingRight`), `pb`(`paddingBottom`) | https://styled-system.com/table#space |
 | Background | `background`, `backgroundImage`, `backgroundPosition`, `backgroundRepeat`, `backgroundSize` | https://styled-system.com/api/#background |
+
+## Functions
+
+### `initLibrary`
+
+라이브러리를 초기화하는 함수입니다. 반드시 `<DRAWEditor />` 컴포넌트가 로드되기 전에 호출되어야 하며, WebAssembly 모듈에 대한 `wasmPath`를 지정해줘야 컴포넌트를 사용할 수 있습니다.
+
+#### Parameters
+
+- options: [`InitLibraryOptions`](#initlibraryoptions)
+
+#### Returns
+
+- `void`
+
+## Types
+
+### `InitLibraryOptions`
+
+|     Name     |     Type     | Required |   Defaults   |
+| :----------: | :----------: | :------: | :----------: |
+|   wasmPath   |    string    |   Yes    | `""`         |
+| onWASMLoaded | `() => void` |          |  `() => {}`  |
+
+### DRAWEditorProps
+
+#### 확장한 타입
+
+- BackgroundProps
+- WidthProps
+- MinWidthProps
+- MaxWidthProps
+- HeightProps
+- MinHeightProps
+- MaxHeightProps
+- SpaceProps

@@ -1,6 +1,10 @@
+import { Steps } from "nextra-theme-docs";
+
 # 시작하기
 
-## 설치하기
+<Steps>
+
+### 설치하기
 
 이 라이브러리는 비공개로 배포되어 있습니다. 따라서 라이브러리를 설치하기 위해서는 비공개 레지스트리 접근 권한이 필요합니다.
 
@@ -12,7 +16,7 @@
 yarn add @kmu-draw/draw-editor
 ```
 
-## 라이브러리 초기화
+### 라이브러리 초기화
 
 ```tsx filename="AwesomeApp.tsx" showLineNumbers
 import { initLibrary } from "@kmu-draw/draw-editor";
@@ -27,7 +31,7 @@ initLibrary({
 });
 ```
 
-## 사용법
+### 사용법
 
 다음과 같은 형태로 `<DRAWEditor />` 컴포넌트를 임포트하고, 여러분의 앱에 마운트하여 사용할 수 있습니다.
 
@@ -45,7 +49,8 @@ const App = () => {
 };
 ```
 
-## 실행 결과
+### 실행 결과
 
 ![실행 결과](/images/draw-editor-demo.png)
 
+</Steps>

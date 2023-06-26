@@ -1,6 +1,18 @@
-# DRAW Documentation
+<div align="center">
+  <h1>
+    <a href="https://draw-docs.home.jaewook.me">DRAW Documentation</a>
+    &middot;
+    <a href="https://github.com/kmu-draw/docs/actions/workflows/ci.yml">
+      <img src="https://github.com/kmu-draw/docs/actions/workflows/ci.yml/badge.svg" alt="CI" />
+    </a>
+  </h1>
 
-DRAW project documentation website created using [Nextra](https://nextra.site/).
+  <p align="center">
+    DRAW project documentation website built on <a href="https://nextra.site/">Nextra</a>.
+  </p>
+
+  <img src="./images/draw-docs-website.png" alt="website screenshot" />
+</div>
 
 ## Deploy Guide
 
